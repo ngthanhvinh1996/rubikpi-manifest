@@ -8,6 +8,7 @@
   <remote fetch="https://github.com/meta-qt5" name="meta-qt5" review="github.com"/>
   <remote fetch="https://github.com/rubikpi-ai" name="rubikpi" review="github.com"/>
   <remote fetch="https://git.codelinaro.org" name="codelinaro" review="git.codelinaro.org"/>
+  <remote fetch="https://github.com/ngthanhvinh1996" name="ngthanhvinh" review="github.com"/>
   <default remote="github" revision="refs/heads/scarthgap" sync-j="8"/>
 
   <project name="meta-qcom" path="layers/meta-qcom" remote="Linaro" revision="ec80a36bce11d8182b4bb2a6fa0359adfeccde0a" upstream="refs/heads/scarthgap"/>
@@ -41,4 +42,6 @@
 
   <project name="clo/le/platform/vendor/opensource/camera-kernel" path="src/vendor/qcom/opensource/kernel-6.6/techpack/camera-kernel" remote="codelinaro" revision="ea5e7d62936278197f3e35e1d9637ca143151b32" upstream="camera-kernel.qclinux.1.0.r1-rel"/>
   <project name="meta-qcom-qim-product-sdk" path="layers/meta-qcom-qim-product-sdk" revision="e262c81696fbb687e9ecb404cd9d538880264d4d" upstream="refs/heads/scarthgap"/>
+
+  <project name="meta-icm42688" path="layers/meta-icm42688" remote="ngthanhvinh" revision="1c3bee41a1f74b86f607db8514fde2b4f67d911f" upstream="refs/heads/scarthgap"/>
 </manifest>
